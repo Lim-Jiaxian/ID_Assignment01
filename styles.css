@@ -42,3 +42,15 @@ nav img{
     text-decoration: none;
     font-size: 31px;
 }
+.nav-link-pages ul li::after{
+    content: '';
+    width: 0%;
+    height: 5px;
+    background: aliceblue;
+    display: block;
+    margin: auto;
+    transition: 0.7s;
+}
+.nav-link-pages ul li:hover::after{
+    width: 100%;
+}
