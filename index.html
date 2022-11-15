@@ -21,15 +21,15 @@
 <section class="header">
     <nav>
         <a href="index.html"><img src="images/Canvas_Logo.png"></a>
-        <div class="nav-link-pages">
-            <i class="fa fa-window-close"></i>
+        <div class="nav-link-pages" id="navLinks">
+            <i class="fa fa-times" onclick="HideMenu()"></i>
             <ul>
-                <li><a href="">BOOKS</a></li>
-                <li><a href="">INFORMATION</a></li>
-                <li><a href="">CONTACT</a></li>
+                <li><a href="">-BOOKS-</a></li>
+                <li><a href="">-INFORMATION-</a></li>
+                <li><a href="">-CONTACT-</a></li>
             </ul>
         </div>
-        <i class="fa fa-bars"></i>
+        <i class="fa fa-bars" onclick="ShowMenu()"></i>
     </nav>
 <div class="text-box">
     <h1>Welcome to Wyhcz Books, where all fantasy, fiction, non-fiction, manga and comics come together!</h1>
@@ -41,5 +41,26 @@
 
 
 </section>
+
+
+
+
+
+
+
+
+<!----JavaScript for Menu interactions------>
+<script>
+
+    var navLinks = document.getElementById("navLinks");
+    function ShowMenu(){
+        navLinks.style.right = "0px";
+    }
+    function HideMenu(){
+        navLinks.style.right = "-200px";
+    }
+
+</script>
+
 </body>
 </html>
