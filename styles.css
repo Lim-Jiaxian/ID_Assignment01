@@ -85,7 +85,6 @@ nav .fa{
         display: block;
     }
     .nav-link-pages{
-        text-size-adjust:inherit;
         position: absolute;
         background: aliceblue;
         height: 100vh;
