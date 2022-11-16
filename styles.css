@@ -4,8 +4,7 @@ body{
 *{
     margin: 0;
     padding: 0;
-    font-family: 'Licorice', cursive;
-    font-family: 'Rubik Bubbles', cursive;
+    font-family: 'Josefin Slab', serif;
 }
 .header{
     min-height: 100vh;
@@ -37,6 +36,8 @@ nav img{
     position: relative;
 }
 .nav-link-pages a{
+    font-family: 'Licorice', cursive;
+    font-family: 'Rubik Bubbles', cursive;
     color: black;
     text-decoration: none;
     font-size: 31px;
@@ -70,6 +71,8 @@ nav img{
     
 }
 .text-box p{
+    font-family: 'Licorice', cursive;
+    font-family: 'Rubik Bubbles', cursive;
     margin: 10px 0 40px;
     font-size: 22px;
     color: black;
@@ -105,4 +108,58 @@ nav .fa{
     .nav-link-pages ul{
         padding: 30px;
     }
+}
+
+.books{
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    padding-top: 100px;
+}
+h1{
+    font-size: 36px;
+    font-weight: 600;
+}
+p{
+    color: black;
+    font-size: 14px;
+    line-height: 22px;
+    padding: 10px;
+}
+.row{
+    margin-top: 5%;
+    display: flex;
+    justify-content: space-between;
+}
+.Fiction-Books{
+    flex-basis: 30%;
+    background-color:lightblue;
+    border-radius: 10px;
+    margin-bottom: 5%;
+    padding: 20px 12px;
+    box-sizing: border-box;
+}
+.NonFiction-Books{
+    flex-basis: 30%;
+    background-color:lightcoral;
+    border-radius: 10px;
+    margin-bottom: 5%;
+    padding: 20px 12px;
+    box-sizing: border-box;
+}
+.Manga-Books{
+    flex-basis: 30%;
+    background-color:blanchedalmond;
+    border-radius: 10px;
+    margin-bottom: 5%;
+    padding: 20px 12px;
+    box-sizing: border-box;
+}
+.Comic-Books{
+    flex-basis: 30%;
+    background-color:aquamarine;
+    border-radius: 10px;
+    margin-bottom: 5%;
+    padding: 20px 12px;
+    box-sizing: border-box;
 }
