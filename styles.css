@@ -77,6 +77,52 @@ nav img{
     font-size: 22px;
     color: black;
 }
+.text-box-information{
+    width: 90%;
+    color: black;
+    position: absolute;
+    top: 35%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+}
+.text-box-information h1{
+    font-family: 'Josefin Slab', serif;
+    font-size: 70px;
+    color: aliceblue;
+    background-color: black;
+    
+}
+.text-box-information p{
+    font-family: 'Licorice', cursive;
+    font-family: 'Rubik Bubbles', cursive;
+    margin: 10px 0 40px;
+    font-size: 22px;
+    color: black;
+}
+.text-box-contact{
+    width: 90%;
+    color: black;
+    position: absolute;
+    top: 35%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+}
+.text-box-contact h1{
+    font-family: 'Josefin Slab', serif;
+    font-size: 70px;
+    color: aliceblue;
+    background-color: black;
+    
+}
+.text-box-contact p{
+    font-family: 'Licorice', cursive;
+    font-family: 'Rubik Bubbles', cursive;
+    margin: 10px 0 40px;
+    font-size: 22px;
+    color: black;
+}
 nav .fa{
     display: none;
 }
