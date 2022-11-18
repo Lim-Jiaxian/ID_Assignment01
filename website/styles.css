@@ -192,6 +192,9 @@ p{
     padding: 20px 12px;
     box-sizing: border-box;
 }
+.Fiction-Books p{
+    font-size: 17px;
+}
 .NonFiction-Books{
     flex-basis: 30%;
     background-color:lightcoral;
@@ -199,6 +202,9 @@ p{
     margin-bottom: 5%;
     padding: 20px 12px;
     box-sizing: border-box;
+}
+.NonFiction-Books p{
+    font-size: 17px;
 }
 .Manga-Books{
     flex-basis: 30%;
@@ -208,6 +214,9 @@ p{
     padding: 20px 12px;
     box-sizing: border-box;
 }
+.Manga-Books p{
+    font-size: 17px;
+}
 .Comic-Books{
     flex-basis: 30%;
     background-color:aquamarine;
@@ -215,4 +224,7 @@ p{
     margin-bottom: 5%;
     padding: 20px 12px;
     box-sizing: border-box;
+}
+.Comic-Books p{
+    font-size: 17px;
 }
