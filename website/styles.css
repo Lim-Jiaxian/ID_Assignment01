@@ -9,7 +9,7 @@ body{
 .header{
     min-height: 100vh;
     width: 100%;
-    background-image: url("ID_Assignment01/images/Blue-Trees.png");
+    background-image: url("images/Blue-Trees.png");
     background-position: center;
     background-size: cover;
     position: relative;
@@ -129,6 +129,12 @@ nav .fa{
 }
 @media(max-width: 700px){
     .text-box h1{
+        font-size: 20px;
+    }
+    .text-box-information h1{
+        font-size: 20px;
+    }
+    .text-box-contact h1{
         font-size: 20px;
     }
     .nav-link-pages ul li{
