@@ -1,5 +1,5 @@
 body{
-    background-color: aliceblue;
+    background-color:black;
 }
 *{
     margin: 0;
@@ -11,6 +11,23 @@ body{
     margin-left: auto;
     margin-right: auto;
     width: 55%;
+}
+.left {
+    display: block;
+    margin-right:auto;
+    width: 45%;
+    height: 80%;;
+    float: left;
+}
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.container h2{
+    text-align: center;
+    font-size: 25px;
+    padding-right: 20px;
 }
 .header{
     min-height: 100vh;
@@ -206,8 +223,9 @@ nav .fa{
     padding-top: 100px;
 }
 .books h1{
-    font-size: 36px;
+    font-size: 55px;
     font-weight: 600;
+    color: aliceblue;
 }
 p{
     color: black;
@@ -248,8 +266,11 @@ h3{
     padding: 20px 50px;
     box-sizing: border-box;
 }
+.Fiction-Books h3{
+    font-size: 25px;
+}
 .Fiction-Books p{
-    font-size: 17px;
+    font-size: 20px;
 }
 .Educational-Books{
     flex-basis: 30%;
@@ -259,8 +280,11 @@ h3{
     padding: 20px 12px;
     box-sizing: border-box;
 }
+.Educational-Books h3{
+    font-size: 25px;
+}
 .Educational-Books p{
-    font-size: 17px;
+    font-size: 20px;
 }
 .Manga-Books{
     flex-basis: 30%;
@@ -270,8 +294,11 @@ h3{
     padding: 20px 12px;
     box-sizing: border-box;
 }
+.Manga-Books h3{
+    font-size: 25px;
+}
 .Manga-Books p{
-    font-size: 17px;
+    font-size: 20px;
 }
 .Comic-Books{
     flex-basis: 30%;
@@ -281,8 +308,11 @@ h3{
     padding: 20px 12px;
     box-sizing: border-box;
 }
+.Comic-Books h3{
+    font-size: 25px;
+}
 .Comic-Books p{
-    font-size: 17px;
+    font-size: 20px;
 }
 
 .bookOfMonth{
@@ -292,8 +322,9 @@ h3{
     padding-top: 50px;
 }
 .bookOfMonth h1{
-    font-size: 36px;
+    font-size: 55px;
     font-weight: 600;
+    color: aliceblue;
 }
 .listOfFictionBooks{
     width: 80%;
@@ -301,11 +332,21 @@ h3{
     text-align: center;
     padding-top: 50px;
 }
+.listOfFictionBooks h1{
+    font-size: 55px;
+    font-weight: 600;
+    color: aliceblue;
+}
 .listOfEduBooks{
     width: 80%;
     margin: auto;
     text-align: center;
     padding-top: 50px;
+}
+.listOfEduBooks h1{
+    font-size: 55px;
+    font-weight: 600;
+    color: aliceblue;
 }
 .listOfMangaBooks{
     width: 80%;
@@ -313,9 +354,22 @@ h3{
     text-align: center;
     padding-top: 50px;
 }
+.listOfMangaBooks h1{
+    font-size: 55px;
+    font-weight: 600;
+    color: aliceblue;
+}
 .listOfComicBooks{
     width: 80%;
     margin: auto;
     text-align: center;
     padding-top: 50px;
 }
+.listOfComicBooks h1{
+    font-size: 55px;
+    font-weight: 600;
+    color: aliceblue;
+}
+
+
+
