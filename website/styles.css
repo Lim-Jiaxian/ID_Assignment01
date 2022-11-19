@@ -89,10 +89,10 @@ nav img{
     font-size: 28px;
     color: black;
 
-    overflow: hidden; /* Ensures the content is not revealed until the animation */
-    border-right: .100em solid black; /* The typwriter cursor */
-    white-space: nowrap; /* Keeps the content on a single line */
-    margin: 0 auto; /* Gives that scrolling effect as the typing happens */
+    overflow: hidden; /* Content hidden until the animation */
+    border-right: .100em solid black; /* Cursor */
+    white-space: nowrap; 
+    margin: 0 auto;
     animation: 
         typing 3.5s steps(40, end),
         blink-caret .75s step-end infinite;
@@ -277,4 +277,39 @@ h3{
 }
 .Comic-Books p{
     font-size: 17px;
+}
+
+.bookOfMonth{
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    padding-top: 50px;
+}
+.bookOfMonth h1{
+    font-size: 36px;
+    font-weight: 600;
+}
+.listOfFictionBooks{
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    padding-top: 50px;
+}
+.listOfEduBooks{
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    padding-top: 50px;
+}
+.listOfMangaBooks{
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    padding-top: 50px;
+}
+.listOfComicBooks{
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    padding-top: 50px;
 }
