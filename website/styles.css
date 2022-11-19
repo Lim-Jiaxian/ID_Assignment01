@@ -158,14 +158,20 @@ nav .fa{
     .text-box h1{
         font-size: 20px;
     }
+    .text-box h2{
+        font-size: 10px;
+    }
     .text-box-information h1{
         font-size: 20px;
     }
-    .text-box-contact{
-        font-size: 10px;
+    .text-box-information h2{
+        font-size: 15px;
     }
     .text-box-contact h1{
         font-size: 20px;
+    }
+    .text-box-contact p{
+        font-size: 10px;
     }
     .nav-link-pages ul li{
         display: block;
