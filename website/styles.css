@@ -372,4 +372,17 @@ h3{
 }
 
 
+footer {
+    font-family: 'Licorice', cursive;
+    font-family: 'Rubik Bubbles', cursive;
+    padding: 3px;
+    background-color:lightblue;
+    color: black;
+    text-align: center;
+}
+footer a{
+    color: black;
+    font-family: 'Licorice', cursive;
+    font-family: 'Rubik Bubbles', cursive;
+}
 
