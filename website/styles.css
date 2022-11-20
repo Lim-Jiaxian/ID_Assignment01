@@ -12,6 +12,10 @@ body{
     margin-right: auto;
     width: 55%;
 }
+.responsive {
+    width: 100%;
+    height: auto;
+}
 .left {
     display: block;
     margin-right:auto;
@@ -172,6 +176,9 @@ nav .fa{
     display: none;
 }
 @media(max-width: 700px){
+    .row{
+        flex-direction: column;
+    }
     .text-box h1{
         font-size: 20px;
     }
@@ -214,6 +221,10 @@ nav .fa{
     .nav-link-pages ul{
         padding: 30px;
     }
+    .bookOfMonth{
+        float: none;
+        text-align: center;
+    }
 }
 
 .books{
@@ -243,11 +254,7 @@ h3{
     font-weight: 600;
     margin: 10px 0;
 }
-@media(max-width: 700px){
-    .row{
-        flex-direction: column;
-    }
-}
+
 /* The typing effect */
 @keyframes typing {
     from { width: 0 }
