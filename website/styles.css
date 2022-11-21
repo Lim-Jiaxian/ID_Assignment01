@@ -20,13 +20,23 @@ body{
     display: block;
     margin-right:auto;
     width: 45%;
-    height: 80%;;
+    height: 80%;
     float: left;
 }
 .container {
     display: flex;
-    align-items: center;
-    justify-content: center;
+    justify-content: space-around;
+}
+.split{
+    flex-basis: 45%;
+    margin: 4px;
+    display: block;
+    margin-right:auto;
+}
+@media (max-width: 375px) {
+    .container {
+      flex-direction: column;
+    }
 }
 .container h2{
     text-align: center;
