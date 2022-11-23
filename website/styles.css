@@ -145,7 +145,6 @@ nav img{
     color: black;
 
     overflow: hidden; /* Content hidden until the animation */
-    border-right: .100em solid black; /* Cursor */
     white-space: nowrap; 
     margin: 0 auto;
     animation: 
