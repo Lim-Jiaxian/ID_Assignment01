@@ -112,7 +112,7 @@ nav img{
     font-size: 70px;
     color: aliceblue;
     background-color: black;
-    
+    text-align: center;
 }
 .text-box h2{
     font-family: 'Josefin Slab', serif;
@@ -189,7 +189,7 @@ nav .fa{
     .row{
         flex-direction: column;
     }
-    
+
     .text-box-information h1{
         font-size: 20px;
     }
