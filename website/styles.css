@@ -189,12 +189,7 @@ nav .fa{
     .row{
         flex-direction: column;
     }
-    .text-box h1{
-        font-size: 20px;
-    }
-    .text-box h2{
-        font-size: 10px;
-    }
+    
     .text-box-information h1{
         font-size: 20px;
     }
