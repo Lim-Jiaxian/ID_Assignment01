@@ -252,6 +252,15 @@ nav img{
     .row{
         flex-direction: column;
     }
+    .text-box{
+        width: 90%;
+        color: black;
+        position: absolute;
+        top: 40%;
+        left: 50%;
+        transform: translate(-50%,-50%);
+        text-align: center;
+    }
     .text-box-information h1{
         font-size: 20px;
     }
