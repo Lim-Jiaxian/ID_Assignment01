@@ -265,7 +265,7 @@ nav img{
         width: 90%;
         color: black;
         position: absolute;
-        top: 50%;
+        top: 55%;
         left: 50%;
         transform: translate(-50%,-50%);
         text-align: center;
@@ -326,6 +326,12 @@ nav img{
         font-size: 20px;
     }
     .text-box-contact p{
+        font-size: 10px;
+    }
+    .text-box-redeem h1{
+        font-size: 20px;
+    }
+    .text-box-redeem p{
         font-size: 10px;
     }
     .nav-link-pages ul li{
