@@ -234,6 +234,21 @@ nav img{
     .container {
       flex-direction: column;
     }
+    .text-box-contact{
+        width: 90%;
+        color: black;
+        position: absolute;
+        top: 60%;
+        left: 50%;
+        transform: translate(-50%,-50%);
+        text-align: center;
+    }
+    .text-box-contact h1{
+        font-size: 15px;
+    }
+    .text-box-contact p{
+        font-size: 7px;
+    }
 }
 @media(max-width: 575px){
     .nav-link-pages a{
@@ -289,18 +304,17 @@ nav img{
     .navbar{
         flex-direction: column;
     }
-    .navbar img{
-        display: none;
-    }
     .nav-link-pages ul {
         width: 100%;
         font-size: small;
         flex-direction: column;
     }
     .nav-link-pages.active{
+        position: absolute;
+        z-index: 2;
         display: flex;
         background-color: black;
-        top: 70%;
+        top: 0%;
     }
 }
 @media(max-width: 700px){
