@@ -113,7 +113,7 @@ nav img{
 .ellipsis-button .bar{
     height: 3px;
     width: 100%;
-    background-color: black;
+    background-color: aliceblue;
     border-radius: 10px;
 }
 .home-bannerImage{
@@ -206,6 +206,30 @@ nav img{
     color: black;
     background-color: lightblue;
 }
+.text-box-redeem{
+    width: 90%;
+    color: black;
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+}
+.text-box-redeem h1{
+    font-family: 'Josefin Slab', serif;
+    font-size: 70px;
+    color: aliceblue;
+    background-color: black;
+    
+}
+.text-box-redeem p{
+    font-family: 'Licorice', cursive;
+    font-family: 'Rubik Bubbles', cursive;
+    margin: 10px 0 40px;
+    font-size: 25px;
+    color: black;
+    background-color: lightblue;
+}
 @media (max-width: 375px) {
     .container {
       flex-direction: column;
@@ -215,15 +239,42 @@ nav img{
     .nav-link-pages a{
         font-family: 'Licorice', cursive;
         font-family: 'Rubik Bubbles', cursive;
-        color: white;
+        color: aliceblue;
         text-decoration: none;
-        font-size: 15px;
+        font-size: 10px;
     }
     .text-box{
         width: 90%;
         color: black;
         position: absolute;
         top: 45%;
+        left: 50%;
+        transform: translate(-50%,-50%);
+        text-align: center;
+    }
+    .text-box-information{
+        width: 90%;
+        color: black;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%,-50%);
+        text-align: center;
+    }
+    .text-box-contact{
+        width: 90%;
+        color: black;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%,-50%);
+        text-align: center;
+    }
+    .text-box-redeem{
+        width: 90%;
+        color: black;
+        position: absolute;
+        top: 50%;
         left: 50%;
         transform: translate(-50%,-50%);
         text-align: center;
@@ -238,6 +289,9 @@ nav img{
     .navbar{
         flex-direction: column;
     }
+    .navbar img{
+        display: none;
+    }
     .nav-link-pages ul {
         width: 100%;
         font-size: small;
@@ -246,6 +300,7 @@ nav img{
     .nav-link-pages.active{
         display: flex;
         background-color: black;
+        top: 70%;
     }
 }
 @media(max-width: 700px){
