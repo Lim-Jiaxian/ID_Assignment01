@@ -213,7 +213,7 @@ nav img{
     width: 90%;
     color: black;
     position: absolute;
-    top: 30%;
+    top: 25%;
     left: 50%;
     transform: translate(-50%,-50%);
     text-align: center;
@@ -232,6 +232,20 @@ nav img{
     font-size: 25px;
     color: black;
     background-color: lightblue;
+}
+.formContainer{
+    background-color: lightblue;
+    width: 90%;
+    color: black;
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+}
+.formContainer p{
+    font-size: 20px;
+    font-weight: bold;
 }
 @media (max-width: 320px){
     .text-box-contact{
