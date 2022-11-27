@@ -42,42 +42,43 @@
 
 <form>
     <div class="formContainer">
-      <p>Fill in the redeem details to collect your Book!</p>
-      <hr>
       <br>
-      <label for="emaAdrs"><b>Email Address</b></label>
-      <input type="emailAdrs" placeholder="Enter Email Address" name="emaAdrs" required>
+      <label for="brN"><b>Book Reference Number</b></label><br>
+      <input type="number" class="ERN" placeholder="Enter Reference Number" name="brN" required>
       <br>
       <br>
-      <label for="brN"><b>Book Reference Number</b></label>
-      <input type="bookRN" placeholder="Enter Reference Number" name="brN" required>
+      <label for="bkT"><b>Book Title</b></label><br>
+      <input type="text" class="BT" placeholder="Enter Book Title" name="bkT" required>
       <br>
       <br>
-      <label for="bkT"><b>Book Title</b></label>
-      <input type="bookTitle" placeholder="Enter Book Title" name="bkT" required>
+      <label for="emaAdrs"><b>Email Address</b></label><br>
+      <input type="email" class="emailSub2" placeholder="Enter Email Address" name="emaAdrs" required>
       <br>
         <p>Please select Book Type:</p>
-        <input type="radio" value="FICTIONB">
+        <input type="radio" id="html" name="book_type" value="EDUCATIONALB">
+        <label for="css">Education</label><br>
+        <input type="radio" id="html" name="book_type" value="FICTIONB">
         <label for="html">Fiction</label><br>
-        <input type="radio" value="EDUCATIONALB">
-        <label for="css">Educational</label><br>
-        <input type="radio" value="MANGAB">
+        <input type="radio" id="html" name="book_type" value="MANGAB">
         <label for="html">Manga</label><br>
-        <input type="radio" value="COMICB">
+        <input type="radio" id="html" name="book_type" value="COMICB">
         <label for="css">Comic</label><br>
-    <p>Please select your collection Method:</p>
-        <input type="radio" id="cm1" value="blue">
+        <p>Please select your Collection Method:</p>
+        <input type="radio" id="cm1" name="cm" value="collect">
         <label for="css">Collection at Physical Store</label><br>
-        <input type="radio" id="cm2" name="fav_language" value="red">
-        <label for="html">Delivery</label><br>
+        <input type="radio" id="cm2" name="cm" value="delivery">
+        <label for="html">Delivery to home</label><br>
     <br>
     <p><label for="w3review">Additional comments:</label></p>
     <textarea id="w3review" name="w3review" rows="4" cols="50">Please enter any additional support or needs required!                E.g. Please wrap the books!</textarea>
-      <p>By submitting the redeem form, you agree to our <a href="#" style="color:dodgerblue">Terms & Privacy</a>.</p>
-  
+      <p>By submitting the redeem form, you agree to our <a href="#" style="color:dodgerblue">Terms & Conditions</a>.</p>
+      <p>* After submitting the redeem form, check your <u>Email</u> to find more about the redeem details *</p>
       <div class="clearfix">
-        <button type="cancel" class="cancelbtn">Cancel</button>
-        <button type="submit" class="submitbtn">Submit</button>
+        <div class="notifPopup" onclick="myFunction()">
+            <button type="reset" class="cancelbtn">Cancel</button>
+            <button type="submit" class="submitbtn"> Submit </button>
+            <div class="popuptext" id="myPopup2">Book Redeemed! Please Check your Email</div>
+        </div>
       </div>
       <br>
     </div>
@@ -111,7 +112,7 @@
     We will send you emails when new book collection arrives and special discount offers!<br><br>
     Email  Address
     <form>
-        <input type="text" class="emailSub" placeholder="Enter Email Address" name="emailAdrs" required><br><br>
+        <input type="email" class="emailSub" placeholder="Enter Email Address" name="emailAdrs" required><br><br>
         <div class="notifPopup" onclick="myFunction()">
             <button type="button" class="submitBtn"> Submit </button><br><br>
             <div class="popuptext" id="myPopup">Email Subscribed!</div>
