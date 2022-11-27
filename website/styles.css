@@ -237,7 +237,7 @@ nav img{
     width: 90%;
     color: black;
     position: absolute;
-    top: 60%;
+    top: 65%;
     left: 50%;
     transform: translate(-50%,-50%);
     text-align: center;
@@ -415,6 +415,11 @@ footer a{
 form label{
     font-family: 'Licorice', cursive;
     font-family: 'Rubik Bubbles', cursive;
+    color: black;
+    font-size: 20px;
+}
+.formContainer label{
+    font-family: 'Josefin Slab', serif;
     color: black;
     font-size: 20px;
 }
