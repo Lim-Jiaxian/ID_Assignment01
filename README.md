@@ -51,6 +51,13 @@ Responsive Interactions / Website Testing
 - Page links on top of webpage will be hidden inside an ellipsis with JavaScipt
 - Ellipsis button shows navigational links upon clicking
 - Footer contains navigational page links as well as links to GitHub Repo, Fax & Tel number, and email addresses
+Technologies / Language Implemented
+- HTML
+  - Contain all the text, navigational link, book details, web form 
+- CSS
+  - Format of website, responsive interactions, border / padding / colour for individual elements 
+- JavaScript
+  - Ellipsis Menu for navigational page links when the screen size is small like mobile devices 
   
 
 # Credits
@@ -68,11 +75,11 @@ Acknowledgements / Sources of Inspiration
   - FreeCodeCamp, it shows different website scales and teaches how to make them responsive using different methods 
    - Link : https://www.youtube.com/watch?v=srvUrASNj0s&t=13722s&ab_channel=freeCodeCamp.org
 - Format
-  - Books border, background, padding, flex and footer sourced from previous weekly ID_CAs
+  - Books border, background, padding, flex, footer and web form sourced from previous weekly ID_CAs
 - Ellipsis Button
   - W3Schools -Link : https://www.w3schools.com/howto/howto_css_menu_icon.asp
 - TypeWriter Effect
   -  CSS-TRICKS -Link : https://css-tricks.com/snippets/css/typewriter-effect/
 
-# PROJECT Link
+# - PROJECT Link -
 https://lim-jiaxian.github.io/ID_Assignment01/
