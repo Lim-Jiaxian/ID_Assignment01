@@ -829,6 +829,14 @@ form label{
         width: 250px;
     }
 }
+/*IP678*/
+@media(max-width: 412px) and (max-height: 736px){
+    .resbanner{
+        display: block;
+        height: 200px;
+        width: 250px;
+    }
+}
 @media(max-height: 620px){
     .resbanner{
         display: none;
