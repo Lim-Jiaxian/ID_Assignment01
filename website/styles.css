@@ -247,6 +247,235 @@ nav img{
     font-size: 20px;
     font-weight: bold;
 }
+
+.books{
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    padding-top: 100px;
+}
+.books h1{
+    font-size: 55px;
+    font-weight: 600;
+    color: aliceblue;
+}
+p{
+    color: black;
+    font-size: 14px;
+    line-height: 22px;
+    padding: 10px;
+}
+.row{
+    margin-top: 5%;
+    display: flex;
+    justify-content:space-around;
+}
+h3{
+    text-align: center;
+    font-weight: 600;
+    margin: 10px 0;
+}
+
+/* The typing effect */
+@keyframes typing {
+    from { width: 0 }
+    to { width: 100% }
+}
+/* The typewriter cursor effect */
+@keyframes blink-caret {
+    from, to { border-color: transparent }
+    50% { border-color: black; }
+}
+.Fiction-Books{
+    flex-basis: 30%;
+    background-color:lightblue;
+    border-radius: 20px;
+    margin-bottom: 5%;
+    padding: 20px 50px;
+    box-sizing: border-box;
+}
+.Fiction-Books h3{
+    font-size: 25px;
+}
+.Fiction-Books p{
+    font-size: 20px;
+}
+.Educational-Books{
+    flex-basis: 30%;
+    background-color:lightcoral;
+    border-radius: 20px;
+    margin-bottom: 5%;
+    padding: 20px 12px;
+    box-sizing: border-box;
+}
+.Educational-Books h3{
+    font-size: 25px;
+}
+.Educational-Books p{
+    font-size: 20px;
+}
+.Manga-Books{
+    flex-basis: 30%;
+    background-color:blanchedalmond;
+    border-radius: 20px;
+    margin-bottom: 5%;
+    padding: 20px 12px;
+    box-sizing: border-box;
+}
+.Manga-Books h3{
+    font-size: 25px;
+}
+.Manga-Books p{
+    font-size: 20px;
+}
+.Comic-Books{
+    flex-basis: 30%;
+    background-color:goldenrod;
+    border-radius: 20px;
+    margin-bottom: 5%;
+    padding: 20px 12px;
+    box-sizing: border-box;
+}
+.Comic-Books h3{
+    font-size: 25px;
+}
+.Comic-Books p{
+    font-size: 20px;
+}
+
+.bookOfMonth{
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    padding-top: 50px;
+}
+.bookOfMonth h1{
+    font-size: 55px;
+    font-weight: 600;
+    color: aliceblue;
+}
+.listOfFictionBooks{
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    padding-top: 50px;
+}
+.listOfFictionBooks h1{
+    font-size: 55px;
+    font-weight: 600;
+    color: aliceblue;
+}
+.listOfEduBooks{
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    padding-top: 50px;
+}
+.listOfEduBooks h1{
+    font-size: 55px;
+    font-weight: 600;
+    color: aliceblue;
+}
+.listOfMangaBooks{
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    padding-top: 50px;
+}
+.listOfMangaBooks h1{
+    font-size: 55px;
+    font-weight: 600;
+    color: aliceblue;
+}
+.listOfComicBooks{
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    padding-top: 50px;
+}
+.listOfComicBooks h1{
+    font-size: 55px;
+    font-weight: 600;
+    color: aliceblue;
+}
+
+
+footer {
+    font-family: 'Licorice', cursive;
+    font-family: 'Rubik Bubbles', cursive;
+    padding: 3px;
+    background-color:lightblue;
+    color: black;
+    text-align: center;
+}
+footer a{
+    color: black;
+    font-family: 'Licorice', cursive;
+    font-family: 'Rubik Bubbles', cursive;
+}
+form label{
+    font-family: 'Licorice', cursive;
+    font-family: 'Rubik Bubbles', cursive;
+    color: black;
+    font-size: 20px;
+}
+.submitBtn{
+    cursor: pointer;
+    font-family: 'Licorice', cursive;
+    font-family: 'Rubik Bubbles', cursive;
+    background-color: black;
+    border: none;
+    border-radius: 20%;
+    color: white;
+    padding: 10px 15px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+    width: auto;
+}
+.submitBtn::after{
+    content: '';
+    width: 0%;
+    height: 5px;
+    background: aliceblue;
+    display: block;
+    margin: auto;
+    transition: 0.7s;
+}
+.submitBtn:hover::after{
+    background-color: grey;
+    width: auto;
+}
+.cancelBtn{
+    cursor: pointer;
+    font-family: 'Licorice', cursive;
+    font-family: 'Rubik Bubbles', cursive;
+    background-color: aliceblue;
+    border: none;
+    border-radius: 20%;
+    color: black;
+    padding: 10px 15px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+    width: auto;
+}
+.cancelBtn::after{
+    content: '';
+    width: 0%;
+    height: 5px;
+    background: black;
+    display: block;
+    margin: auto;
+    transition: 0.7s;
+}
+.cancelBtn:hover::after{
+    background-color: grey;
+    width: auto;
+}
+
 @media (max-width: 320px){
     .text-box-contact{
         width: 90%;
@@ -522,169 +751,5 @@ nav img{
         text-align: center;
     }
 }
-.books{
-    width: 80%;
-    margin: auto;
-    text-align: center;
-    padding-top: 100px;
-}
-.books h1{
-    font-size: 55px;
-    font-weight: 600;
-    color: aliceblue;
-}
-p{
-    color: black;
-    font-size: 14px;
-    line-height: 22px;
-    padding: 10px;
-}
-.row{
-    margin-top: 5%;
-    display: flex;
-    justify-content:space-around;
-}
-h3{
-    text-align: center;
-    font-weight: 600;
-    margin: 10px 0;
-}
 
-/* The typing effect */
-@keyframes typing {
-    from { width: 0 }
-    to { width: 100% }
-}
-/* The typewriter cursor effect */
-@keyframes blink-caret {
-    from, to { border-color: transparent }
-    50% { border-color: black; }
-}
-.Fiction-Books{
-    flex-basis: 30%;
-    background-color:lightblue;
-    border-radius: 20px;
-    margin-bottom: 5%;
-    padding: 20px 50px;
-    box-sizing: border-box;
-}
-.Fiction-Books h3{
-    font-size: 25px;
-}
-.Fiction-Books p{
-    font-size: 20px;
-}
-.Educational-Books{
-    flex-basis: 30%;
-    background-color:lightcoral;
-    border-radius: 20px;
-    margin-bottom: 5%;
-    padding: 20px 12px;
-    box-sizing: border-box;
-}
-.Educational-Books h3{
-    font-size: 25px;
-}
-.Educational-Books p{
-    font-size: 20px;
-}
-.Manga-Books{
-    flex-basis: 30%;
-    background-color:blanchedalmond;
-    border-radius: 20px;
-    margin-bottom: 5%;
-    padding: 20px 12px;
-    box-sizing: border-box;
-}
-.Manga-Books h3{
-    font-size: 25px;
-}
-.Manga-Books p{
-    font-size: 20px;
-}
-.Comic-Books{
-    flex-basis: 30%;
-    background-color:goldenrod;
-    border-radius: 20px;
-    margin-bottom: 5%;
-    padding: 20px 12px;
-    box-sizing: border-box;
-}
-.Comic-Books h3{
-    font-size: 25px;
-}
-.Comic-Books p{
-    font-size: 20px;
-}
-
-.bookOfMonth{
-    width: 80%;
-    margin: auto;
-    text-align: center;
-    padding-top: 50px;
-}
-.bookOfMonth h1{
-    font-size: 55px;
-    font-weight: 600;
-    color: aliceblue;
-}
-.listOfFictionBooks{
-    width: 80%;
-    margin: auto;
-    text-align: center;
-    padding-top: 50px;
-}
-.listOfFictionBooks h1{
-    font-size: 55px;
-    font-weight: 600;
-    color: aliceblue;
-}
-.listOfEduBooks{
-    width: 80%;
-    margin: auto;
-    text-align: center;
-    padding-top: 50px;
-}
-.listOfEduBooks h1{
-    font-size: 55px;
-    font-weight: 600;
-    color: aliceblue;
-}
-.listOfMangaBooks{
-    width: 80%;
-    margin: auto;
-    text-align: center;
-    padding-top: 50px;
-}
-.listOfMangaBooks h1{
-    font-size: 55px;
-    font-weight: 600;
-    color: aliceblue;
-}
-.listOfComicBooks{
-    width: 80%;
-    margin: auto;
-    text-align: center;
-    padding-top: 50px;
-}
-.listOfComicBooks h1{
-    font-size: 55px;
-    font-weight: 600;
-    color: aliceblue;
-}
-
-
-footer {
-    font-family: 'Licorice', cursive;
-    font-family: 'Rubik Bubbles', cursive;
-    padding: 3px;
-    background-color:lightblue;
-    color: black;
-    text-align: center;
-}
-footer a{
-    color: black;
-    font-family: 'Licorice', cursive;
-    font-family: 'Rubik Bubbles', cursive;
-}
 
