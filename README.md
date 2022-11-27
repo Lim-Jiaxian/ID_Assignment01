@@ -45,13 +45,14 @@ It is mainly for customers / target audiences to view the different variety of b
 
 
 # Features
-
-# Website testing / responsive interactions
+Responsive Interactions / Website Testing
+- Welcome message will be revealed slowly to user via TypeWriter
 - Books will resize according to screen ratio, and change to veritical columns for mobile view
 - Page links on top of webpage will be hidden inside an ellipsis with JavaScipt
 - Ellipsis button shows navigational links upon clicking
+- Footer contains navigational page links as well as links to GitHub Repo, Fax & Tel number, and email addresses
   
-  
+
 # Credits
 Content / Media Images & Descriptions
 - All the book cover page images were taken from google and amazon books
@@ -67,8 +68,11 @@ Acknowledgements / Sources of Inspiration
   - FreeCodeCamp, it shows different website scales and teaches how to make them responsive using different methods 
    - Link : https://www.youtube.com/watch?v=srvUrASNj0s&t=13722s&ab_channel=freeCodeCamp.org
 - Format
-  - Books border, background, padding, flex and footer sourced from previous week ID_CAs
+  - Books border, background, padding, flex and footer sourced from previous weekly ID_CAs
 - Ellipsis Button
-  - W3Schools -Link : https://www.w3schools.com/howto/howto_css_menu_icon.asp 
+  - W3Schools -Link : https://www.w3schools.com/howto/howto_css_menu_icon.asp
+- TypeWriter Effect
+  -  CSS-TRICKS -Link : https://css-tricks.com/snippets/css/typewriter-effect/
+
 # PROJECT Link
 https://lim-jiaxian.github.io/ID_Assignment01/
