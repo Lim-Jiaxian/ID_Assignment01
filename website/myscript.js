@@ -6,3 +6,11 @@ const navBarLinks = document.getElementsByClassName('nav-link-pages')[0]
 ellipsisButton.addEventListener('click', () => {
     navBarLinks.classList.toggle('active')
 })
+
+//On click, checks if the textbox class emailSub contains any words. If so, submission notification pops up
+function myFunction() {
+    var popup = document.getElementById("myPopup");
+    if(document.getElementsByClassName('emailSub' !== null)){
+        popup.classList.toggle("show");   
+    }
+}
