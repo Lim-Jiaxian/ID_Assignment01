@@ -22,12 +22,18 @@ It is mainly for customers / target audiences to view the different variety of b
 - Redeem page
   - Redeem header
   - Web form on redeeming books
+  - Submit button checks if all textboxes & fields are filled
+  - Cancel button that clears all previous edits in form
 - Book Information
   - There are 4 types of books available
     - Fiction Books
     - Educational Books
     - Manga Books
     - Comic Books
+- Footer
+  - Navigational links to different html pages
+  - Mail to & Tel to different contact information
+  - Textbox to allow email input to submit for subscription 
 
 # Colour Theme
 - Webpage will be adapting slightly towards the __Dark Theme__ format
