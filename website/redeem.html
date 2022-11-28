@@ -37,53 +37,54 @@
             </ul>
         </div>
     </nav>
-<div class="text-box-redeem">
-    <h1>Books Redeem</h1>
-</div>
 
-<form>
     <div class="formContainer">
-      <br>
-      <label for="brN"><b>Book Reference Number</b></label><br>
-      <input type="number" class="ERN" placeholder="Enter Reference Number" name="brN" required>
-      <br>
-      <br>
-      <label for="bkT"><b>Book Title</b></label><br>
-      <input type="text" class="BT" placeholder="Enter Book Title" name="bkT" required>
-      <br>
-      <br>
-      <label for="emaAdrs"><b>Email Address</b></label><br>
-      <input type="email" class="emailSub2" placeholder="Enter Email Address" name="emaAdrs" required>
-      <br>
-        <p>Please select Book Type:</p>
-        <input type="radio" id="html" name="book_type" value="EDUCATIONALB">
-        <label for="css">Education</label><br>
-        <input type="radio" id="html" name="book_type" value="FICTIONB">
-        <label for="html">Fiction</label><br>
-        <input type="radio" id="html" name="book_type" value="MANGAB">
-        <label for="html">Manga</label><br>
-        <input type="radio" id="html" name="book_type" value="COMICB">
-        <label for="css">Comic</label><br>
-        <p>Please select your Collection Method:</p>
-        <input type="radio" id="cm1" name="cm" value="collect">
-        <label for="css">Collection at Physical Store</label><br>
-        <input type="radio" id="cm2" name="cm" value="delivery">
-        <label for="html">Delivery to home</label><br>
-        <br>
-        <p><label for="w3review">Additional comments:</label></p>
-        <textarea id="w3review" name="w3review" rows="4" cols="50">Please enter any additional support or needs required!                E.g. Please wrap the books!</textarea>
-        <p>By submitting the redeem form, you agree to our <a href="#" style="color:dodgerblue">Terms & Conditions</a>.</p>
-        <p>* After submitting the redeem form, check your <u>Email</u> to find more about the redeem details *</p>
-        <div class="clearfix">
-            <button type="reset" class="cancelBtn">Cancel</button>
-            <div class="notifPopup" onclick="myFunction()">
-                <button type="submit" class="submitBtn"> Submit </button>
-            <div class="popuptext" id="myPopup2">Book Redeemed! Please Check your Email</div>
-        </div>
-      <br>
-      <br>
+        <h1>Book Redeem</h1>
+        <form>
+            <label for="brN"><b>Book Reference Number</b></label><br>
+            <input type="number" class="ERN" placeholder="Enter Reference Number" name="brN" required>
+            <br>
+            <br>
+            <label for="bkT"><b>Book Title</b></label><br>
+            <input type="text" class="BT" placeholder="Enter Book Title" name="bkT" required>
+            <br>
+            <br>
+            <label for="emaAdrs"><b>Email Address</b></label><br>
+            <input type="email" class="emailSub2" placeholder="Enter Email Address" name="emaAdrs" required>
+            <br>
+            <br>
+            <p>Please select Book Type:</p>
+            <select id="country" name="country">
+            <option value="BookType">--Select Type--</option>
+            <option value="Education">Education</option>
+            <option value="Fiction">Fiction</option>
+            <option value="Manga">Manga</option>
+            <option value="Comic">Comic</option>
+            </select>
+            <br>
+            <br>
+            <br>
+            <p>Please select your Collection Method:</p>
+            <input type="radio" id="cm1" name="cm" value="collect">
+            <label for="css">Collection at Physical Store</label><br>
+            <input type="radio" id="cm2" name="cm" value="delivery">
+            <label for="html">Delivery to home</label><br>
+            <br>
+            <br>
+            <p><label for="comReview">Additional comments:  (Enter Home Address if delivery method)</label></p>
+            <textarea id="comReview" name="comReview" rows="4" cols="50">Please enter any additional comments! E.g. Home Address or Please wrap the books!</textarea>
+            <p>By submitting the redeem form, you agree to our <a href="#" style="color:dodgerblue">Terms & Conditions</a>.</p>
+            <p>* After submitting the redeem form, check your <u>Email</u> to find more about the redeem details *</p>
+            <div class="clearfix">
+                <button type="reset" class="cancelBtn">Cancel</button>
+                <div class="notifPopup" onclick="myFunction()">
+                    <button type="submit" class="submitBtn"> Submit </button>
+                <div class="popuptext" id="myPopup2">Book Redeemed! Please Check your Email</div>
+            </div>
+            <br>
+            <br>
+        </form>
     </div>
-</form>
 
 
 </section>

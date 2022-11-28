@@ -222,7 +222,6 @@ nav img{
     font-size: 70px;
     color: aliceblue;
     background-color: black;
-    
 }
 .text-box-redeem p{
     font-family: 'Licorice', cursive;
@@ -234,13 +233,20 @@ nav img{
 }
 .formContainer{
     background-color: lightblue;
+    height: 70%;
     width: 90%;
     color: black;
     position: absolute;
-    top: 65%;
+    top: 55%;
     left: 50%;
     transform: translate(-50%,-50%);
     text-align: center;
+}
+.formContainer h1{
+    top: 0%;
+    font-size: 70px;
+    color: aliceblue;
+    background-color: black;
 }
 .formContainer p{
     font-size: 20px;
@@ -422,6 +428,9 @@ form label{
     color: black;
     font-size: 20px;
 }
+.formContainer{
+    overflow: scroll;
+}
 .formContainer label{
     font-family: 'Josefin Slab', serif;
     color: black;
@@ -522,6 +531,14 @@ form label{
     -webkit-animation: fadeIn 1s;
     animation: fadeIn 1s;
 }
+input[type=text], input[type=number],input[type=email], select, textarea {
+    width: 13%;
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 1px;
+    resize: vertical;
+}
+
 /*Fade Animation*/
 @-webkit-keyframes fadeIn {
     from {opacity: 0;} 
@@ -582,6 +599,45 @@ form label{
     }
     .text-box-information p{
         font-size: 7px;
+    }
+    .formContainer{
+        background-color: lightblue;
+        height: 60%;
+        width: 90%;
+        color: black;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%,-50%);
+        text-align: center;
+    }
+    .formContainer h1{
+        font-size: 15px;
+        color: aliceblue;
+        background-color: black;
+    }
+    .formContainer p{
+        font-size: 10px;
+        font-weight: bold;
+    }
+    .formContainer label{
+        font-size: 10px;
+        font-weight: bold;
+    }
+    input[type=text], input[type=number],input[type=email]{
+        size: 1;
+        width: 25%;
+        padding: 5px 10px;
+        border: 1px solid #ccc;
+        border-radius: 1px;
+        resize: vertical;
+    }
+    input[type=text], input[type=number],input[type=email], select, textarea {
+        width: 50%;
+        padding: 5px;
+        border: 1px solid #ccc;
+        border-radius: 1px;
+        resize: vertical;
     }
 }
 @media(max-width: 390px){
