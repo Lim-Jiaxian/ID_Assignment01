@@ -41,6 +41,12 @@
     <div class="formContainer">
         <h1>Book Redeem</h1>
         <form>
+            <p>Please fill in & enter the particular details to redeem your book!</p>
+            <br>
+            <br>
+            <hr>
+            <br>
+            <br>
             <label for="brN"><b>Book Reference Number</b></label><br>
             <input type="number" class="ERN" placeholder="Enter Reference Number" name="brN" required>
             <br>
@@ -54,7 +60,7 @@
             <br>
             <br>
             <p>Please select Book Type:</p>
-            <select id="country" name="country">
+            <select id="BookType" name="BookType">
             <option value="BookType">--Select Type--</option>
             <option value="Education">Education</option>
             <option value="Fiction">Fiction</option>
@@ -73,8 +79,12 @@
             <br>
             <p><label for="comReview">Additional comments:  (Enter Home Address if delivery method)</label></p>
             <textarea id="comReview" name="comReview" rows="4" cols="50">Please enter any additional comments! E.g. Home Address or Please wrap the books!</textarea>
+            <br>
+            <br>
             <p>By submitting the redeem form, you agree to our <a href="#" style="color:dodgerblue">Terms & Conditions</a>.</p>
             <p>* After submitting the redeem form, check your <u>Email</u> to find more about the redeem details *</p>
+            <br>
+            <br>
             <div class="clearfix">
                 <button type="reset" class="cancelBtn">Cancel</button>
                 <div class="notifPopup" onclick="myFunction()">
