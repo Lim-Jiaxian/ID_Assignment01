@@ -58,7 +58,8 @@ Technologies / Language Implemented
   - Format of website, responsive interactions, border / padding / colour for individual elements 
 - JavaScript
   - Ellipsis Menu for navigational page links when the screen size is small like mobile devices 
-  - Notification popoup message if footer textbox is filled and submit button is pressed
+  - Notification popup message if footer textbox is filled and submit button is pressed
+  - Notification popup message if redeem form text, number and email box is filled and submit button is pressed
   
 
 # Credits
@@ -81,8 +82,11 @@ Acknowledgements / Sources of Inspiration
   - W3Schools -Link : https://www.w3schools.com/howto/howto_css_menu_icon.asp
 - Popup notification
   - W3schools - Link : https://www.w3schools.com/howto/howto_js_popup.asp  
+- Custom Scrollbar
+  - W3schools - Link : https://www.w3schools.com/howto/howto_css_custom_scrollbar.asp  
 - TypeWriter Effect
   -  CSS-TRICKS -Link : https://css-tricks.com/snippets/css/typewriter-effect/
+   
 
 # - PROJECT Link -
 https://lim-jiaxian.github.io/ID_Assignment01/
