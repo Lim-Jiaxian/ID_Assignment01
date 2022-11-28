@@ -353,6 +353,10 @@ h3{
     font-weight: 600;
     color: aliceblue;
 }
+.bookOfMonth h2{
+    font-size: 20px;
+    color: black;
+}
 .listOfFictionBooks{
     width: 80%;
     margin: auto;
@@ -713,7 +717,7 @@ form label{
 }
 @media (max-width: 1670px) {
     .container h2{
-        font-size: 20px;
+        font-size: 15px;
     }
 }
 @media(max-height: 760px){
