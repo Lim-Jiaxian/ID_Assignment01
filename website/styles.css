@@ -1077,5 +1077,46 @@ input[type=text], input[type=number],input[type=email], select, textarea {
         text-align: center;
     }
 }
-
-
+@media(max-height: 780px){
+    .formContainer{
+        top: 55%;
+    }
+    .formContainer{
+        background-color: lightblue;
+        height: 60%;
+        width: 70%;
+        color: black;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%,-50%);
+        text-align: center;
+    }
+    .formContainer h1{
+        font-size: 30px;
+        color: aliceblue;
+        background-color: black;
+    }
+    .formContainer p{
+        font-size: 20px;
+        font-weight: bold;
+    }
+    .formContainer label{
+        font-size: 20px;
+        font-weight: bold;
+    }
+    input .ERN .emailSub2{
+        width: 25%;
+        padding: 5px 10px;
+        border: 1px solid #ccc;
+        border-radius: 1px;
+        resize: vertical;
+    }
+    select .bookType{
+        width: 25%;
+        padding: 5px;
+        border: 1px solid #ccc;
+        border-radius: 1px;
+        resize: vertical;
+    }
+}
