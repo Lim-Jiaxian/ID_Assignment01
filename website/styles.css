@@ -1121,7 +1121,8 @@ input[type=text], input[type=number],input[type=email], select, textarea {
     }
 }
 
-/*Below media scaling is for laptops with windows scaling 125% & 150% to view the website normally*/
+/*Below media scaling is for laptops with windows scaling 125% & 150% to view the website normally. However, this is severly affect mobile view.*/
+
 @media (-webkit-device-pixel-ratio: 1.25) {
     * {
       zoom: 1.0;

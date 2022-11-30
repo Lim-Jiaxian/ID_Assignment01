@@ -1,6 +1,3 @@
-//Adjusting viewpoint for windows scale above 100%
-document.querySelector("meta[name=viewport]").setAttribute('content', 'width=device-width, initial-scale='+(1/window.devicePixelRatio));
-
 //JavaScript for Ellipsis Button that appears when screen size is small
 const ellipsisButton = document.getElementsByClassName('ellipsis-button')[0]
 const navBarLinks = document.getElementsByClassName('nav-link-pages')[0]
