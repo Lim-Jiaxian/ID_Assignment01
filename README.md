@@ -2,14 +2,25 @@
 For my Interactive Development assignment, I've decided to incorporate all html & css skills into creating / building a website for a fictional book company -Titled Wyhcz Books.
 It is mainly for customers / target audiences to view the different variety of books available before making their way towards our physical store. This allows them to read up on the different book genres, synopsis and authors of the specific book. Online purchases however will not be possible as the website is not integrated with a database server to compile the Books & User Data.
 
-# Working plan
+## Working plan
 - Week 3-4: Design the __Format Base__ for the website
 - Week 5: Assignment Checkpoint with __Wireframe & Project Idea__
 - Week 6-7: Finalise the design format, add in __Book's details & Pictures__
 
+&nbsp;
+&nbsp;
+&nbsp;
+
 # Important Note for viewing website
 Since microsoft windows scaling default is at 100%, some laptops with smaller screens scales with 125% or 150% under display settings. My current assignment website scales with default windows scaling of a 100%. In order to view my website with original scale, please set / change your display : Right-Click Desktop > Select Display settings > Set Scale & Layout to 100% & Display resolution to 1920 x 1080.
 
+&nbsp;
+
+For mobile responsive viewing: Iphone 6/7/8 & 6-Plus/7-Plus/8-Plus, Iphone SE, Iphone X, Iphone XR, Iphone 12 Pro, Pixel 5, Samsung Galaxy A5/71, Samsung Galaxy S8+, Samsung Galaxy S9+, Samsung Galaxy S20 Ultra are all available.
+
+&nbsp;
+&nbsp;
+&nbsp;
 # Design process / format
 - Home page
   - Home page header 
@@ -38,6 +49,9 @@ Since microsoft windows scaling default is at 100%, some laptops with smaller sc
   - Mail to & Tel to different contact information
   - Textbox to allow email input to submit for subscription 
 
+&nbsp;
+&nbsp;
+&nbsp;
 # Colour Theme
 - Webpage will be adapting slightly towards the __Dark Theme__ format
   - A mix of both Black & Blue colour theme
@@ -52,7 +66,9 @@ Since microsoft windows scaling default is at 100%, some laptops with smaller sc
     - Manga -Pastel colour Beige
     - Comic -Pastel colour Dark-Golden-Yellow
 
-
+&nbsp;
+&nbsp;
+&nbsp;
 # Features
 Responsive Interactions / Website Testing
 - Welcome message will be revealed slowly to user via TypeWriter
@@ -71,7 +87,9 @@ Technologies / Language Implemented
   - Notification popup message if footer textbox is filled and submit button is pressed
   - Notification popup message if redeem form text, number and email box is filled and submit button is pressed
   
-
+&nbsp;
+&nbsp;
+&nbsp;
 # Credits
 Content / Media Images & Descriptions
 - All the book cover page images were taken from google and amazon books
@@ -97,6 +115,8 @@ Acknowledgements / Sources of Inspiration
 - TypeWriter Effect
   -  CSS-TRICKS -Link : https://css-tricks.com/snippets/css/typewriter-effect/
    
-
+&nbsp;
+&nbsp;
+&nbsp;
 # - PROJECT Link -
 https://lim-jiaxian.github.io/ID_Assignment01/
