@@ -60,6 +60,7 @@ Responsive Interactions / Website Testing
 - Page links on top of webpage will be hidden inside an ellipsis with JavaScipt
 - Ellipsis button shows navigational links upon clicking
 - Footer contains navigational page links as well as links to GitHub Repo, Fax & Tel number, and email addresses
+
 Technologies / Language Implemented
 - HTML
   - Contain all the text, navigational link, book details, web form 
