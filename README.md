@@ -7,6 +7,9 @@ It is mainly for customers / target audiences to view the different variety of b
 - Week 5: Assignment Checkpoint with __Wireframe & Project Idea__
 - Week 6-7: Finalise the design format, add in __Book's details & Pictures__
 
+# Important Note for viewing website
+Since microsoft windows scaling default is at 100%, some laptops with smaller screens scales with 125% or 150% under display settings. My current assignment website scales with default windows scaling of a 100%. In order to view my website with original scale, please set / change your display : Right-Click Desktop > Select Display settings > Set Scale & Layout to 100% & Display resolution to 1920 x 1080.
+
 # Design process / format
 - Home page
   - Home page header 
