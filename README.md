@@ -13,8 +13,8 @@ It is mainly for customers / target audiences to view the different variety of b
 
 # Important Note for viewing website
 Since microsoft windows scaling default is at 100%, some laptops with smaller screens scales with 125% or 150% under display settings. My current assignment website scales with default windows scaling of a 100%. In order to view my website with original scale, please set / change your display : Right-Click Desktop > Select Display settings > Set Scale & Layout to 100% & Display resolution to 1920 x 1080.
-
 &nbsp;
+
 For mobile responsive viewing: Iphone 6/7/8 & 6-Plus/7-Plus/8-Plus, Iphone SE, Iphone X, Iphone XR, Iphone 12 Pro, Pixel 5, Samsung Galaxy A5/71, Samsung Galaxy S8+, Samsung Galaxy S9+, Samsung Galaxy S20 Ultra are all available.
 
 &nbsp;
