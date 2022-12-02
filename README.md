@@ -15,7 +15,6 @@ It is mainly for customers / target audiences to view the different variety of b
 Since microsoft windows scaling default is at 100%, some laptops with smaller screens scales with 125% or 150% under display settings. My current assignment website scales with default windows scaling of a 100%. In order to view my website with original scale, please set / change your display : Right-Click Desktop > Select Display settings > Set Scale & Layout to 100% & Display resolution to 1920 x 1080.
 
 &nbsp;
-
 For mobile responsive viewing: Iphone 6/7/8 & 6-Plus/7-Plus/8-Plus, Iphone SE, Iphone X, Iphone XR, Iphone 12 Pro, Pixel 5, Samsung Galaxy A5/71, Samsung Galaxy S8+, Samsung Galaxy S9+, Samsung Galaxy S20 Ultra are all available.
 
 &nbsp;
@@ -86,13 +85,14 @@ Technologies / Language Implemented
   - Ellipsis Menu for navigational page links when the screen size is small like mobile devices 
   - Notification popup message if footer textbox is filled and submit button is pressed
   - Notification popup message if redeem form text, number and email box is filled and submit button is pressed
+  - Clears form when submit button is pressed
   
 &nbsp;
 &nbsp;
 &nbsp;
 # Credits
 Content / Media Images & Descriptions
-- All the book cover page images were taken from google and amazon books
+- All the book cover page images were taken from Google and Amazon books
 - Book synopsis & genre is taken from both Amazon books & GoodReads Website
   - Amazon Link : https://www.amazon.com/Books/s?srs=17143709011&rh=n%3A283155
   - GoodReads Link : https://www.goodreads.com/
@@ -107,13 +107,15 @@ Acknowledgements / Sources of Inspiration
 - Format
   - Books border, background, padding, flex, footer and web form sourced from previous weekly ID_CAs
 - Ellipsis Button
-  - W3Schools -Link : https://www.w3schools.com/howto/howto_css_menu_icon.asp
+  - W3Schools - Link : https://www.w3schools.com/howto/howto_css_menu_icon.asp
 - Popup notification
   - W3schools - Link : https://www.w3schools.com/howto/howto_js_popup.asp  
 - Custom Scrollbar
   - W3schools - Link : https://www.w3schools.com/howto/howto_css_custom_scrollbar.asp  
 - TypeWriter Effect
-  -  CSS-TRICKS -Link : https://css-tricks.com/snippets/css/typewriter-effect/
+  -  CSS-TRICKS - Link : https://css-tricks.com/snippets/css/typewriter-effect/
+- Clearing form
+  - Boddyhad-Tricks - Link : https://bobbyhadz.com/blog/javascript-clear-input-field-after-submit   
    
 &nbsp;
 &nbsp;

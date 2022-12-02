@@ -21,3 +21,12 @@ function myFunction() {
         popup.classList.toggle("show");
     }
 }
+
+//On click, this clears the user inputs which works once web form is submitted
+const form = document.getElementById('web_form');
+
+form.addEventListener('submit', function handleSubmit(event) {
+  event.preventDefault();
+  //Reset form
+  form.reset();
+});
