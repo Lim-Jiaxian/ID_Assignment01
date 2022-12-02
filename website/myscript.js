@@ -8,7 +8,7 @@ ellipsisButton.addEventListener('click', () => {
 })
 
 //On click, checks if the textbox class emailSub contains any words. If so, submission notification pops up
-function myFunction() {
+function myFunction1() {
     var popup = document.getElementById("myPopup");
     if(document.getElementsByClassName('emailSub' !== null)){
         popup.classList.toggle("show");   
