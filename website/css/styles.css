@@ -55,7 +55,7 @@ body{
 .header{
     min-height: 100vh;
     width: 100%;
-    background-image: url("images/Blue-Trees.png");
+    background-image: url("../images/Blue-Trees.png");
     background-position: center;
     background-size: cover;
     position: relative;
