@@ -1,5 +1,5 @@
 # ID_Assignment01 - Wyhcz BookStore
-For my Interactive Development assignment, I've decided to incorporate all html & css skills into creating / building a website for a fictional book company -Titled Wyhcz Books.
+For my Interactive Development assignment, I've decided to incorporate all html, css and JavaScript skills into creating / building a website for a fictional book company -Titled Wyhcz Books.
 It is mainly for customers / target audiences to view the different variety of books available before making their way towards our physical store. This allows them to read up on the different book genres, synopsis and authors of the specific book. Online purchases however will not be possible as the website is not integrated with a database server to compile the Books & User Data.
 
 ## Working plan
