@@ -14,7 +14,7 @@ function myFunction1() {
         popup.classList.toggle("show");   
     }
 }
-//On click, checks if the textbox, number and email classes in redeem form contains any words. If so, submission notification pops up
+//On click, checks webForm if the textbox, number and email classes in redeem form contains any words. If so, submission notification pops up
 function myFunction() {
     var popup = document.getElementById("myPopup2");
     if(document.getElementsByClassName(('ERN' & 'BT' & 'emailSub2') !== null)){
