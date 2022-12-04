@@ -12,10 +12,27 @@ It is mainly for customers / target audiences to view the different variety of b
 &nbsp;
 
 # Important Note for viewing website
-Since microsoft windows scaling default is at 100%, some laptops with smaller screens scales with 125% or 150% under display settings. My current assignment website scales with default windows scaling of a 100%. In order to view my website with original scale, please set / change your display : Right-Click Desktop > Select Display settings > Set Scale & Layout to 100% & Display resolution to 1920 x 1080. Please also ensure that your browser zoom is at 100%.
+Since Microsoft windows scaling default is at __100%__, some laptops with smaller screens scales like __125%__ or __150%__ may have __some issues viewing my website__. My current assignment website scales with default windows scaling of __100%__. In order to view my website with original scale, please use one of the two __methods__ below.
+
+__Method 1__
+- please __set / change your display__ : Right-Click __Desktop__ > Select __Display settings__ > __Set Scale & Layout to 100%__ & __Display resolution to 1920 x 1080__. Please also ensure that your __browser zoom is at 100%__.
+
+__OR__
+
+__Method 2__
+- Windows scaling at __125%__, you can view the website's __original scale__ by making your browser's __zoom to 80%__.
+- Windows scaling at __150%__, you can view the website's __original scale__ by making your brower's __zoom to 67%__.
+- Windows scaling at __175%__, you can view the website's __original scale__ by making your brower's __zoom to 50%__.
+&nbsp;
 &nbsp;
 
-For mobile responsive viewing: Iphone 6/7/8 & 6-Plus/7-Plus/8-Plus, Iphone SE, Iphone X, Iphone XR, Iphone 12 Pro, Pixel 5, Samsung Galaxy A5/71, Samsung Galaxy S8+, Samsung Galaxy S9+, Samsung Galaxy S20 Ultra are all available.
+For __Mobile Responsive__ view, the below __devices are available__.
+- Iphone 6/7/8 & 6-Plus / 7-Plus / 8-Plus
+- Iphone SE, Iphone X, Iphone XR, Iphone 12 Pro
+- Samsung Galaxy A5/71, S8+, S9+, S20 Ultra
+- Google Pixel 5
+
+
 
 &nbsp;
 &nbsp;
