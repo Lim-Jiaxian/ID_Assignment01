@@ -12,7 +12,7 @@ It is mainly for customers / target audiences to view the different variety of b
 &nbsp;
 
 # Important Note for viewing website
-Since microsoft windows scaling default is at 100%, some laptops with smaller screens scales with 125% or 150% under display settings. My current assignment website scales with default windows scaling of a 100%. In order to view my website with original scale, please set / change your display : Right-Click Desktop > Select Display settings > Set Scale & Layout to 100% & Display resolution to 1920 x 1080.
+Since microsoft windows scaling default is at 100%, some laptops with smaller screens scales with 125% or 150% under display settings. My current assignment website scales with default windows scaling of a 100%. In order to view my website with original scale, please set / change your display : Right-Click Desktop > Select Display settings > Set Scale & Layout to 100% & Display resolution to 1920 x 1080. Please also ensure that your browser zoom is at 100%.
 &nbsp;
 
 For mobile responsive viewing: Iphone 6/7/8 & 6-Plus/7-Plus/8-Plus, Iphone SE, Iphone X, Iphone XR, Iphone 12 Pro, Pixel 5, Samsung Galaxy A5/71, Samsung Galaxy S8+, Samsung Galaxy S9+, Samsung Galaxy S20 Ultra are all available.
@@ -78,13 +78,15 @@ Responsive Interactions / Website Testing
 
 Technologies / Language Implemented
 - HTML
-  - Contain all the text, navigational link, book details, web form 
+  - Contain all the text, navigational link, book details, web form
+  - Clicking on the logo image on all pages brings the user to home page 
 - CSS
-  - Format of website, responsive interactions, border / padding / colour for individual elements 
+  - Format of website, border / padding / colour for individual elements 
+  - Media Responsive interactions 
 - JavaScript
   - Ellipsis Menu for navigational page links when the screen size is small like mobile devices 
   - Notification popup message if footer textbox is filled and submit button is pressed
-  - Notification popup message if redeem form text, number and email box is filled and submit button is pressed
+  - Notification popup message if redeem form text, number and email box is filled while submit button is pressed
   - Clears form when submit button is pressed
   
 &nbsp;
